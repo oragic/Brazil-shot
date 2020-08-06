@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+}
+
+body{
+    background-color: #212020;
+}
+div{
+    color: white;
+    display: flex;
+}
+
+.arvore{  
+    width: 671px;
+    height: 654px;
+}
+.logo{
+    width: 104px;
+    height: 104px;
+    
+}
+header{
+    color: white;
+}
+button{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:#719883;
+    color: white;
+}
