@@ -1,35 +1,110 @@
+
+/*Settings*/
 *{
     margin: 0;
     padding: 0;
 }
 a{
     color: white;
+   
+   
 }
 
 body{
     background-color: #212020;
+
 }
-div{
+.container{
+    color: white;   
+    display: flex;
+
+}
+/*header*/
+header{
     color: white;
     display: flex;
-}
-
-.arvore{  
-    width: 671px;
-    height: 654px;
+    justify-content: space-between;
+    margin-bottom: 249px;
 }
 .logo{
     width: 104px;
     height: 104px;
+    padding-left: 50px;
+    padding-top: 5px;
+    
     
 }
-header{
-    color: white;
+span{ 
+    display: flex;
 }
-button{
-    width: 350px;
-    height: 60px;
+span h1{
+    font-size: 40px;
+    padding-top:43px;
+    padding-left: 20px;
+    font-family: 'Strait', sans-serif;
+}
+
+.header-menu{
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+header .header-menu li{
+   margin-left: 300px;
+   
+
+}
+header .menu .header-menu li a{
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.911) 6px 6px 6px;
+   
+}
+header .menu .header-menu li a:hover{
+    color:#bbd8c8;
+    transition: 1s;
+}
+/*body*/
+.arvore{  
+    width: 571px;
+    height: 554px;
+    padding-left: 20px;
+    justify-content: flex-end;
+
+}
+.header-text{
+margin-top: 55px;
+margin-left: 150px;
+font-size: 26px; 
+font-family: 'Ubuntu', sans-serif;
+font:400;
+   
+}
+.body-text{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 37px;
+    font-family: 'Ubuntu', sans-serif ;
+    font:300;
+}
+body .container button{
+    margin-top: 50px;
+    width: 250px;
+    height: 70px;
     border-radius: 10px;
     background-color:#719883;
     color: white;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.705) 4px 4px 4px;
+    border:none;
+}
+body .container button a{
+    text-decoration: none;   
+}
+body .container button:hover{
+background-color:#81aa93;
+transition: 1s;
 }
