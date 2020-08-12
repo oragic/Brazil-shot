@@ -1,14 +1,14 @@
 <?php
 
-include_once '';
+
 class HomeController
 {
     public function index()
     {
-    
-      $template = file_get_contents('');
-      echo $template;
-      echo "Hello World";
-  
+      include_once 'app/View/Homeview.php';
+      $showw = new Homeview;
+      $showw->show();
+     
+
     }
 }
