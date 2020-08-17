@@ -1,0 +1,69 @@
+
+/*Settings*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+   
+   
+}
+
+.container{
+    color: white;   
+    display: flex;
+    position: absolute;
+
+}
+/*header*/
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212020;
+    height: 160px;
+}
+.logo{
+    width: 104px;
+    height: 104px;
+    padding-left: 50px;
+    padding-top: 5px;
+    
+    
+}
+span{ 
+    display: flex;
+    width: auto;
+    
+}
+span h1{
+    font-size: 40px;
+    padding-top:43px;
+    padding-left: 20px;
+    font-family: 'Strait', sans-serif;
+}
+
+.header-menu{
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font: 400;
+    padding-right: 100px;    
+}
+header .header-menu li{
+   margin-left: 250px;
+   
+
+}
+header .menu .header-menu li a{
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.541) 3px 5px 0px;
+   
+}
+header .menu .header-menu li a:hover{
+    color:#719883;
+    transition: 1s;
+}

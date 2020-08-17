@@ -37,6 +37,7 @@ header{
 }
 span{ 
     display: flex;
+    width: auto;
 }
 span h1{
     font-size: 40px;
@@ -49,10 +50,10 @@ span h1{
     padding-top: 50px;
     display: flex;
     list-style: none;
-    padding-right: 100px;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     font: 400;
+    padding-right: 100px;
     
 }
 header .header-menu li{
@@ -62,7 +63,7 @@ header .header-menu li{
 }
 header .menu .header-menu li a{
     text-decoration: none;
-    text-shadow: rgba(0, 0, 0, 0.541) 4px 6px 0px;
+    text-shadow: rgba(0, 0, 0, 0.541) 1px 5px 0px;
    
 }
 header .menu .header-menu li a:hover{

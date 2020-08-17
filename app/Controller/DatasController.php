@@ -4,6 +4,9 @@ class DatasController
 {
     public function index()
     {
-        echo "test";
+        include_once './app/View/Datasview.php';
+
+        $showpage = new Datasview;
+        $showpage->show();
     }
 }
